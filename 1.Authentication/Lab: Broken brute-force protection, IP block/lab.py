@@ -1,3 +1,4 @@
+print("#############################USERNAME################################")
 for i in range(150):
     if i % 3:
         print("carlos")
@@ -5,7 +6,7 @@ for i in range(150):
     else:
         print("wiener")
     
-
+print("#############################PASSWORD################################")
 with open('passwords.txt','r') as f:
     lines = f.readlines()
 
